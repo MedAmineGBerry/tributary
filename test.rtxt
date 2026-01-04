@@ -1,0 +1,56 @@
+print("""
+╔══════════════════════════════════════════════════════════════════╗
+║                     🌊 TRIBUTARY: KEY TAKEAWAYS                  ║
+╠══════════════════════════════════════════════════════════════════╣
+║                                                                  ║
+║  1. STRUCTURE CAN BEAT VOLUME                                    ║
+║     With only 26 weeks of Poland data, hierarchical models       ║
+║     gave us stable ROAS estimates by borrowing from 8 markets.   ║
+║                                                                  ║
+║  2. SHRINKAGE IS ADAPTIVE                                        ║
+║     Countries with more data keep their own estimates.           ║
+║     Countries with less data borrow more from the group.         ║
+║                                                                  ║
+║  3. THE TRANSFORMS MATTER                                        ║
+║     Adstock and saturation capture real marketing phenomena.     ║
+║     Making them testable and visible builds stakeholder trust.   ║
+║                                                                  ║
+║  4. DIAGNOSTICS BEFORE DECISIONS                                 ║
+║     R-hat, ESS, divergences — check them before presenting       ║
+║     ROAS estimates to leadership.                                ║
+║                                                                  ║
+║  5. KNOW WHEN TO STOP POOLING                                    ║
+║     If markets are genuinely very different, hierarchical        ║
+║     models will give you confidently wrong answers.              ║
+║                                                                  ║
+╠══════════════════════════════════════════════════════════════════╣
+║                                                                  ║
+║  FOR YOUR OWN WORK:                                              ║
+║                                                                  ║
+║  • Start with synthetic data to validate your pipeline           ║
+║  • Build transforms as pure, tested functions                    ║
+║  • Compare pooled/unpooled/hierarchical to understand your data  ║
+║  • Use shrinkage plots to explain results to stakeholders        ║
+║  • Run posterior predictive checks before making budget calls    ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+""")
+
+
+print("""
+🎵 NEXT STEPS FOR VOLTA
+
+With these stable ROAS estimates, VOLTA can now:
+
+1. ✅ Allocate the €500K budget across markets with confidence intervals
+2. ✅ Identify high-potential channels in new markets (even with sparse data)
+3. ✅ Plan data collection — we know which markets need more observations
+4. ✅ Set realistic expectations — uncertainty bounds prevent over-promising
+
+Remember: Structure can beat volume — when you understand the conditions.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🌊 Tributary: https://github.com/yourusername/tributary
+🎤 PyMCon 2025: "Hierarchical Models in MMM: Can Structure Beat Data Size?"
+""")
