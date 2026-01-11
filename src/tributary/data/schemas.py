@@ -5,7 +5,7 @@ from typing import Literal
 
 from pydantic import BaseModel, Field, field_validator, model_validator
 import pandera as pa
-from pandera.typing import Series
+from pandera.typing.pandas import Series
 
 
 VOLTA_MARKETS = Literal["DE", "FR", "UK", "NL", "ES", "IT", "PL", "SE"]
